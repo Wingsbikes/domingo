@@ -1,21 +1,14 @@
 .contenedorpadre{
 	display: grid;
 	grid-template-areas: 
-	"header"
 	"frase"
 	"video";
 	grid-auto-columns: 100%;
-	grid-template-rows: 100px 600px auto;
+	grid-template-rows: auto auto;
 }
 
 .frase{
 	grid-area: frase;
-	width: 80%;
-}
-
-
-.header{
-	grid-area: header;
 	width: 100%;
 }
 
@@ -24,12 +17,7 @@
 	width: 100%;
 }
 
-.frase{
-	display: flex;
-	flex-direction: row;
-	justify-self: center;
-	align-self: center;
-}
+
 
 
 
