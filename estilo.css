@@ -47,3 +47,30 @@
 }
 
 
+.videomobile{
+	display: none;
+}
+
+
+@media only screen and (max-width: 768px) {
+	.contenedorpadre{
+	display: grid;
+	grid-template-areas: 
+	"instagram reel contacto"
+	"frase frase frase"
+	"videomobile videomobile videomobile";
+	grid-auto-columns: 33% 33% 33%;
+	grid-template-rows: 100px 600px auto;
+}
+
+.videomobile{
+	grid-area: videomobile;
+}
+
+.video{	
+	display: none;
+	}
+
+
+}
+
