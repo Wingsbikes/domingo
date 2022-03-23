@@ -65,12 +65,12 @@
 
 .videomobile{
 	grid-area: videomobile;
+	width: 100%;
 }
 
 .video{	
 	display: none;
 	}
-
 
 }
 
